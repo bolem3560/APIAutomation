@@ -1,0 +1,40 @@
+{
+  "name": "automationtest",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test-dev": "./node_modules/.bin/wdio wdio.dev.conf.js",
+    "test-qa": "./node_modules/.bin/wdio wdio.qa.conf.js"
+  },
+  "author": "kiran",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.13.2",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.13.2",
+    "@wdio/local-runner": "^7.13.2",
+    "@wdio/selenium-standalone-service": "^7.13.2",
+    "@wdio/spec-reporter": "^7.13.2",
+    "@wdio/sync": "^7.13.2",
+    "chai": "^4.3.1",
+    "chai-verify": "^1.3.0",
+    "chrome-launcher": "^0.13.1",
+    "cucumber": "^6.0.5",
+    "fs-extra": "^8.1.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "rimraf": "^3.0.2",
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-cucumberjs-json-reporter": "^2.0.3",
+    "yargs": "^16.1.0",
+    "path": "^0.12.7",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@types/cucumber": "^6.0.1"
+  }
+}
